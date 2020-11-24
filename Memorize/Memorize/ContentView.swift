@@ -10,10 +10,34 @@ import CoreData
 
 struct ContentView: View {
     var body: some View {
-        Text("hello!")
+        return RoundedRectangle(cornerRadius: 10.0
+        )
+//        return Text("👻")
     }
 }
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
