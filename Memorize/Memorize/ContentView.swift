@@ -10,9 +10,11 @@ import CoreData
 
 struct ContentView: View {
     var body: some View {
-        return RoundedRectangle(cornerRadius: 10.0
-        )
-//        return Text("👻")
+        return ZStack(content: {
+            RoundedRectangle(cornerRadius: 10.0).stroke().foregroundColor(Color.blue)
+            Text("👻")
+        }).foregroundColor(Color.orange)
+        
     }
 }
     
